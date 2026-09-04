@@ -1,0 +1,38 @@
+# Air Force Medical Command Informatics System (AFMCIS)
+
+The **Air Force Medical Command Informatics System (AFMCIS)** is a specialized desktop administration and clinical logistics platform engineered to streamline medical examinations, track equipment maintenance, manage operational workflows, and facilitate healthcare logistics.
+
+---
+
+## Key Features
+
+* **Medical Administration & Logistics:** Streamlined interface for managing medical profiles, physical examination records, and operational readiness tracking.
+* **Equipment & Technical Maintenance:** Specialized tools to log, calibrate, and track technical medical assets and critical hardware.
+* **Automated Document Generation:** Integrates dynamic Microsoft Word template processing using Content Controls for standardized reporting and official record archiving.
+* **Data Visualization & Analytics:** Built-in charts and reporting pipelines for real-time monitoring of system metrics, asset status, and clinical throughput.
+* **Automated Updates:** Integrated update management via remote JSON manifest integration for secure executable distribution.
+
+---
+
+## Tech Stack & Architecture
+
+* **GUI Framework:** Python 3.x with PyQt5 / PyQt6
+* **Data Processing & Analytics:** Pandas, NumPy, Matplotlib, Seaborn
+* **Document Automation:** `python-docx` with XML Content Control binding
+* **Build & Deployment:** PyInstaller & Inno Setup
+* **Distribution:** Integrated HTTPS update fetcher via GitHub Releases API
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+
+Ensure you have Python 3.10+ installed on your environment along with `pip`.
+
+### Setup Environment
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/daf-art-care/AFMCIS.git](https://github.com/daf-art-care/AFMCIS.git)
+   cd AFMCIS
